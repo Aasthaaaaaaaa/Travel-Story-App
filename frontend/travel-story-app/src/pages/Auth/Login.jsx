@@ -57,7 +57,7 @@ const Login = () => {
       <div className='login-ui-box right-10 -top-40' />
       <div className='login-ui-box bg-cyan-200 -bottom-40 right-1/2' />
 
-      <div className='container h-screen flex items-center justify-center px-20 mx-auto'>
+      <div className='container h-screen flex items-center justify-center px-5 mx-auto'>
         {/* Left Side - Travel Image */}
         <div className='w-2/4 h-[90vh] flex items-end bg-login-bg-img bg-cover bg-center rounded-lg p-10 z-50'>
           <div>
@@ -72,14 +72,14 @@ const Login = () => {
         </div>
 
         {/* Right Side - Login Form */}
-        <div className='w-2/4 h-[75vh] bg-white rounded-r-lg relative p-16 shadow-lg shadow-cyan-200/20'>
+        <div className='w-2/4 h-[80vh] bg-white rounded-r-lg relative p-16 shadow-lg shadow-cyan-200/20 '>
           <form onSubmit={handleLogin}>
-            <h4 className='text-2xl font-semibold mb-7'>Login</h4>
+            <h4 className='text-xl font-semibold mb-5'>Login</h4>
 
             <input
               type="text"
               placeholder='Email'
-              className='input-box'
+              className='input-box p-2'
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
