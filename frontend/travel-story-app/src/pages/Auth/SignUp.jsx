@@ -60,7 +60,7 @@ const SignUp = () => {
       <div className='login-ui-box right-10 -top-40' />
       <div className='login-ui-box bg-cyan-200 -bottom-40 right-1/2' />
 
-      <div className='container h-screen flex items-center justify-center px-5 mx-auto'>
+      <div className='container h-screen flex items-center justify-center px-20 mx-auto'>
         {/* Left Side - Travel Image */}
         <div className='w-2/4 h-[90vh] flex items-end bg-signup-bg-img bg-cover bg-center rounded-lg p-10 z-50'>
           <div>
@@ -75,14 +75,14 @@ const SignUp = () => {
         </div>
 
         {/* Right Side - Signup Form */}
-        <div className='w-2/4 h-[80vh] bg-white rounded-r-lg relative p-12 shadow-lg shadow-cyan-200/20 flex flex-col justify-center'>
+        <div className='w-2/4 h-[75vh] bg-white rounded-r-lg relative p-16 shadow-lg shadow-cyan-200/20 flex flex-col justify-center'>
           <form onSubmit={handleSignUp} className='w-full'>
-            <h4 className='text-xl font-semibold mb-7'>SignUp</h4>
+            <h4 className='text-2xl font-semibold mb-7'>SignUp</h4>
 
             <input
               type="text"
               placeholder='Full Name'
-              className='input-box p-2'
+              className='input-box'
               value={name}
               onChange={({ target }) => setName(target.value)}
             />
@@ -90,7 +90,7 @@ const SignUp = () => {
             <input
               type="text"
               placeholder='Email'
-              className='input-box p-2'
+              className='input-box'
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -98,10 +98,9 @@ const SignUp = () => {
             <PasswordInput
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className=''
             />
 
-            {error && <p className='text-red-500 text-xs p-1 '>{error}</p>}
+            {error && <p className='text-red-500 text-xs pb-1'>{error}</p>}
 
             <button type="submit" className='btn-primary'>
               CREATE ACCOUNT
