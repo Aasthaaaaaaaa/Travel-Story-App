@@ -23,9 +23,6 @@ The **Travel Story App** is a MERN stack-based platform where users can document
 - Deployed on **Render**.
 - Configure environment variables in the hosting platform.
 
-## License
-This project is licensed under the MIT License.
-
 ## Contact
 For any inquiries or contributions, reach out to saastha930@gmail.com
 
