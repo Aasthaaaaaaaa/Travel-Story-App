@@ -22,6 +22,12 @@ The **Travel Story App** is a MERN stack-based platform where users can document
 ## Deployment
 - Deployed on **Render**.
 - Configure environment variables in the hosting platform.
+  
+## Screenshots
+![Travel Story App Screenshot](https://github.com/Aasthaaaaaaaa/Travel-Story-App/blob/main/Screenshot%202025-03-22%20012729.png)
+![Another Screenshot](https://github.com/Aasthaaaaaaaa/Travel-Story-App/blob/main/Screenshot%202025-03-22%20012828.png)
+
+
 
 ## Contact
 For any inquiries or contributions, reach out to saastha930@gmail.com
